@@ -1,0 +1,30 @@
+ul li{
+    display: block;
+    padding: 5px;
+    /* border:2px red solid; */
+    float:right;
+    margin:5px;
+    padding: 10px;
+}
+ul{
+    margin-right: 10%;
+}
+table{
+
+    margin-top: 50px;
+    border: 2px black solid;
+    width: 90%;
+    margin-left: 5%;
+}
+td{
+    width: 15%;
+    text-align: center;
+    padding-top: 20px;
+}
+.img{
+    width: 90%;
+}
+
+footer{
+    background-color: maroon;
+}

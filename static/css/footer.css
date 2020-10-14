@@ -1,0 +1,24 @@
+.fa {
+    padding: 50px;
+    font-size: 100px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-youtube {
+    background:white;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 10%;
+  }
+  

@@ -1,0 +1,30 @@
+ul li{
+    display: block;
+    padding: 5px;
+    /* border:2px red solid; */
+    float:right;
+    margin:5px;
+    padding: 10px;
+}
+ul{
+    margin-right: 10%;
+}
+
+table,th,td{
+
+    border: 2px black solid;
+    background-color: bisque;
+    margin: 5%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 2px 2px maroon;
+}
+.notice_form{
+    /* margin-left: 25%; */
+    text-align: center;
+    /* border: 5px black solid; */
+    box-shadow: 2px 2px 2px 2px maroon;
+}
+footer{
+    background-color: maroon;
+}

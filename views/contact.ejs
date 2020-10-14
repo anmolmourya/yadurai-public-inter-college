@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title >YPIC-contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  
+  <%- include('header')%>
+  <div name="notice" style = "border: 0px black dotted; margin-top: 5px; padding: 10px;
+         min-width: 10px;padding-right: 50%;color:blue;">  
+
+      <div style="margin-left:50%;margin-top: 10%;padding:1%;box-shadow: 2px 2px 2px 2px maroon;">
+        <form method="POST">
+            Roll No. * : <input type="text" id="fname" name="roll_no" placeholder="roll no / adhar no" required> <br><br>
+            Your name * : <input type="text" id="fname" name="name" placeholder="Enter full name" required> <br><br>
+            Father's name * : <input type="text"  name="father" placeholder="Enter Father's name" required > <br><br>
+            Village name * : <input type="text" name="village" placeholder="Enter villge name" required > <br><br>
+            contact-1 * : <input type="text" name="contact_1" placeholder="Enter contact-1" required > <br><br>
+            contact-2   : <input type="text" name="contact_2" placeholder="Enter contact-2" > <br><br>
+            contact-3   : <input type="text" name="contact_3" placeholder="Enter contact-3" > <br><br>
+            password   : <input type="password" name="password" placeholder="enter password" > <br><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <button>Submit</button>
+        </form>
+      </div>
+  </div>
+    
+  
+    <br><br><br><br><br> <%- include('footer')%>
+
+</body>
+</html>
